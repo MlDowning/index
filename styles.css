@@ -1,0 +1,75 @@
+
+.block{
+width: 30%;
+text-align: center;
+
+}
+
+.float{
+float:left;}
+
+.pink {
+background: #ee3e64;
+padding-left: 10px;
+width:35%
+border-width: thick;
+border-color: lime; border-style: dotted;
+;}
+
+.orange{
+background: #E2A741;
+border-width: thick;
+padding-top: 5%;
+
+  text:red;
+  text-align: left;
+border-color: green; border-style: dashed;
+background-image: url("http://www.countytreecare.ie/sites/default/files/styles/blog_teaser/public/031.JPG?itok=vdO6p-KU")
+;
+}
+.yellow{
+  background: yellow;
+  float:right;
+}
+
+.green{
+background: green;
+border-color: brown; border-style: groove;
+
+}
+
+.skyblue{
+  background:skyblue;
+}
+
+.lime{
+  background: #3EDADA;
+  padding-bottom: 2%;
+}
+
+.clearleft{
+clear:left;
+
+}
+
+  .main{
+  background:hsl(152, 85%, 74%);
+  background-image: url("https://www.morrisseytreeservices.ie/wp-content/gallery/gallery/DSC_0120.jpg?x23546");
+  border:10px solid black;
+  /*uncomment the line below to get the browser to acknowledge that the div with a class of "main" contains the two floated boxes*/
+
+  overflow:auto;
+  }
+  div#hone{position:relative;
+      text-align: center;
+  background-color: yellow;
+  border-style:ridge;}
+
+  footer{
+  position: relative;
+  bottom:5%;
+   border-width: thick;
+     font-weight: bolder;
+   border-color: lime; border-style: dotted;
+    text-align: center;color:black;background-color: yellow;
+  }
